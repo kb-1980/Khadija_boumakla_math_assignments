@@ -1,4 +1,4 @@
-
+# jacobi
 def jacobi(A, b, tol=0.0001, nmax=100):
     n = len(b)
     x = [0.0] * n
@@ -12,7 +12,7 @@ def jacobi(A, b, tol=0.0001, nmax=100):
         x = x_new
     return x, nmax
 
-
+# Gauss seidal
 def gauss_seidel(A, b, tol=0.0001, nmax=100):
     n = len(b)
     x = [0.0] * n
